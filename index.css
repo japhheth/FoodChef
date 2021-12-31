@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+  margin: 0;
+  padding: 0;
+  
+}
+.container1{
+   height: 650px;
+   width: auto;
+   background-image: url(/assests/images/slide1.jpg);
+}
+ .navbar-brand{
+    margin-left:130px ;
+    font-size: 22px;
+    border: 1px solid white;
+    padding: 8px;
+    letter-spacing: 1px;
+}
+.navbar-nav{
+    font-size: 17px;
+    margin-right: 130px;
+    
+} 
+.heading,.p-heading{
+    color: white;
+    letter-spacing: 2px;
+}
+
+.btn1{
+    background-color: rgb(129, 172, 44);
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+}
+.container1text{
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.solid{
+    border-top: 2px solid white;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.line{
+    display: flex;
+}
+
+.container2{
+    margin-top: 30px;
+    margin-left: 200px;
+    text-align: center;
+    justify-content: center;
+}
+.r{
+    grid-gap: 3px;
+}
+.c, .col-img{
+    height: 350px;
+    width: 350px;
+    padding: 0;
+}
+
+.container2text > h4{
+     color: rgb(129, 172, 44);
+     margin-top: 25px;
+}
+.green{
+    background-color: rgb(112, 211, 165);
+   
+}
+.blue{
+    background-color: rgb(72, 153, 230);
+}
+.orange{
+    background-color: rgb(255, 145, 0);
+}
+.col-text{
+    font-weight: lighter;
+    text-align: center;
+    padding: 50px 25px;
+}
+.c > p{
+    color: white;
+}
+.container3 > h2{
+    text-align: center;
+    margin-top: 50px;
+}
+.container3text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.grid1{
+   display: grid;
+   grid-template-columns: auto auto;
+   width: 500px;
+
+}
+.grid1 > div{ 
+    align-content: center;
+}
+.item1 {
+    grid-row: 1 / span 2;
+  }
+
+.text1 > div{
+    margin-top: 40px;
+    line-height: 2rem;
+}
+.container4{
+    text-align: center;
+    margin-top: 50px;
+}
+.container4img{
+ margin-top: 20px;
+
+}
+.team{
+    border: 5px solid rgb(204, 204, 204);
+    padding: 5px;
+    border-top:5px solid rgb(175, 63, 63);
+    border-left:5px solid rgb(175, 63, 63);
+    margin-top: 25px;
+}
+
+.container5 , .container6, .container7{
+    text-align: center;
+    margin-top: 50px;
+}
+.food{
+    align-content: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.foodtext{
+    color: white;
+    text-align: left;
+    padding: 25px 30px;
+}
+.container6{
+    background-image: url(/assests/images/stats.jpg);
+    background-repeat: no-repeat;
+   background-position:auto;
+   color: white;
+   margin-left: 145px;
+   margin-right: 145px;
+   padding: 60px 50px;
+}
+.container6 > div{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.texta{
+    margin-left: 20px;
+}
+.icona{
+    margin-top: 30px;
+}
+.container7text{
+    color: white;
+    margin-top: 30px;
+   
+}
+.infoheading{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.row7 > div{
+    margin-top: 30px;
+    margin-left: 220px;
+}
+.info1{
+    background-color: rgb(129, 172, 44);
+    
+}
+
+.black{
+    color: black;
+    margin-bottom: 5px;
+    margin-left: -20px;
+   
+}
+i{
+    font-size: 20px;
+    color: white;
+}
+
+.info2{
+    background-image: url(/assests/images/contact.jpg);
+   padding-left:30px;
+   padding-right: 400px;
+}
+.container8{
+    display: block;    
+  }
+.mobile{
+    display: none;
+}
+.container9{
+    background-color: rgb(175, 63, 63);
+    padding:50px;
+    margin-top: 10px;
+    color: white;
+   
+}
+.search{
+    margin-left: 100px;
+}
+.searchbtn{
+    background-color: rgb(129, 172, 44);
+    padding: 8px;
+    border-style: none;
+    border-left: 2px solid white;
+    color: white;
+
+}
+
+
+   .frm {
+    padding: 50px;
+    }
+    .l{
+    padding: 5px;
+    margin-top: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding-right: 150px;
+    color: white;
+    }
+    .l::placeholder {
+    color: white;
+    }
+
+    .lbtn  {
+    padding: 8px 4px;
+    margin-top: 5px;
+    margin-left: 193px;
+    border: none;
+    background: rgb(129, 172, 44);
+    text-decoration: none;
+    font-size: 15px; 
+    color: #fff;
+    }
+   
+    .lbtn {
+    width: 150px;
+    }
+    #Msg{
+        padding-bottom:60px ;
+        padding-left:28px ;
+    }
+    label{
+        padding: 5px;
+    }
+    .page-footer{
+        background-color: black;
+        color: white;
+        padding:10px;
+    }
+    .social{
+        margin-right: 20px;
+    }
+  
+
+  
+  /*Mobile phones*/
+@media only screen and (max-width: 767px) {
+   body{
+       width: 500px;
+   }
+   
+    .navbar-brand{
+        margin:0;
+        font-size: 22px;
+        border: 1px solid white;
+        padding: 8px;
+        letter-spacing: 1px;
+    }
+    .container1{
+        height: 500px;
+     }
+     .container1text{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+     .btn1{
+        background-color: rgb(129, 172, 44);
+        color: white;
+        padding: 5px 10px;
+        font-size: 14px;
+        border: none;
+    }
+    .solid{
+         
+        border-top: 2px solid white;
+        width: 100px;
+        margin-left: 20px;
+       margin-top: 20px;
+    }
+    .container2{
+        margin: 30px 5px;
+    }
+    .c, .col-img{
+        height: 250px;
+        width: 250px;
+        padding: 0;
+    }
+    .container3text{
+        flex-direction: row;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .container3text{
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .text1{
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+
+    .container4{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .container4img{
+     flex-direction: column;
+    
+    }
+    .container6{
+       margin: 20px 0;
+       padding: 20px 5px;
+    }
+   
+    .texta{
+        margin-left: 5px;
+    }
+
+    .container7text{
+        color: white;
+        margin-top: 30px;
+        display: flex;
+       flex-direction: row;
+    }
+    .infoheading{
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .row7 > div{
+        margin-top: 20px;
+        width: 180px;
+        margin-left:100px;
+       
+    }
+    .info1{
+        padding: 0;
+    }
+    .info2{
+      margin-left: 260px;
+      margin-top: -428px;
+      padding:0;
+    }
+     .frm {
+      padding: 11px;
+      }
+      .l{
+      padding: 0px;
+      padding-right: 50px;
+      }
+      .lbtn {
+      width: 80px;
+      }
+      .lbtn  {
+        margin-left: 150px;
+        }
+        label{
+            padding: 0;
+        }
+        #Msg{
+            padding-bottom:33px ;
+        }
+        .container8{
+            display: none;    
+          }
+        .mobile{
+            display: block;
+        }
+      .container9{
+        padding:5px;
+        margin-top: 10px;
+    }
+    .sub, .search{
+        margin-left: 15px;
+    }
+    .searchbtn{
+        background-color: rgb(129, 172, 44);
+        padding: 8px;
+        border-style: none;
+        border-left: 2px solid white;
+        color: white;
+    
+    }
+   
+    .page-footer{
+        background-color: black;
+        color: white;
+        padding:5px;
+    }
+    footer{
+        padding: 0;
+    }
+}
